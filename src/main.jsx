@@ -7,6 +7,7 @@ import { createRoot } from 'react-dom/client';
 import React from 'react';
 import Home from './Home/Home';
 import MainLayout from './MainLayout/MainLayout';
+import Hero from './Hero/Hero';
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,8 @@ const router = createBrowserRouter([
       {
         path : "/",
         element : <Home></Home>
-      }
+      },
+      
     ]
   },
 ]);
