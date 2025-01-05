@@ -4,11 +4,11 @@ const Projects = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch('projects.json')  // Adjust the path if necessary
+        fetch('projects.json') 
             .then(res => res.json())
             .then(data => {
-                console.log("Fetched data:", data);  // Log the data to verify the structure
-                setProjects(data);  // Directly set the array since it's not wrapped in an object
+                // console.log("Fetched data:", data);  
+                setProjects(data);
             })
             .catch(err => {
                 console.error("Error fetching projects:", err);
@@ -17,7 +17,7 @@ const Projects = () => {
 
     return (
         <div>
-            <h2 className="my-10 text-center text-4xl">Projects</h2>
+            <h2 className="my-10 md:my-20 text-center text-4xl">Projects</h2>
             <div className="">
                 {projects.length > 0 ? (
                     projects.map((project) => (
