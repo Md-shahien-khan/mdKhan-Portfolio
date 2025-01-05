@@ -17,7 +17,7 @@ const Education = () => {
 
     return (
         <div>
-            <h2 className="my-10 md:my-20 text-center text-4xl">Education</h2>
+            <h2 className="my-20 text-center text-4xl">Education</h2>
             <div>
                 {education.map((edu, index) => {
                     return (
