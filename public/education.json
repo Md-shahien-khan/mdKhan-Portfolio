@@ -1,0 +1,38 @@
+[
+    {
+      "CourseName": "Management of business information technology, MSc",
+      "Field" : "Information Technology",
+      "PassingYear": 2023,
+      "UniversityName": "University of Greenwich",
+      "Location": "Greenwich, London, Uk"
+    },
+    {
+      "CourseName": "Bachelor in information and communication technology",
+      "Field" : "Information Technology",
+      "PassingYear": 2020,
+      "UniversityName": "Limkokwing University of Creative Technology",
+      "Location": "Cyberjaya, Selangor, Malaysia"
+    },
+    {
+      "CourseName": "Foundation in information and communication technology",
+      "Field" : "Information Technology",
+      "PassingYear": 2018,
+      "UniversityName": "Limkokwing University of Creative Technology",
+      "Location": "Cyberjaya, Selangor, Malaysia"
+    },
+    {
+      "CourseName": "Foundation in Business Management",
+      "Field" : "Business Management",
+      "PassingYear": 2016,
+      "UniversityName": "Limkokwing University of Creative Technology",
+      "Location": "Cyberjaya, Selangor, Malaysia"
+    },
+    {
+      "CourseName": "Secondary School Certificate",
+      "Field" : "Science",
+      "PassingYear": 2015,
+      "UniversityName": "Adamjee Cantonment Public School",
+      "Location": "Dhaka, Bangladesh"
+    }
+  ]
+  

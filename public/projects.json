@@ -1,0 +1,20 @@
+    [
+      {
+        "id" : 1,
+        "projectName": "Next Door Service",
+        "liveLink": "https://next-door-service.web.app/",
+        "image" : "https://i.ibb.co/BPbxGHt/nextdoor.png",
+        "technologiesUsed": ["HTML", "CSS", "React", "Tailwind", "Firebase", "NodeJs", "ExpressJs", "MongoDB"],
+        "description": "A personal portfolio website to showcase my projects, skills, and achievements. Built with a clean and responsive design, it provides a seamless user experience across devices."
+      },
+      {
+        "id" : 2,
+        "projectName": "Cineverse Flix",
+        "image" : "https://i.ibb.co/cx8GXQh/cineverse-Flix.png",
+        "liveLink": "https://www.example.com/task-manager",
+        "technologiesUsed": ["HTML", "CSS", "React", "Tailwind", "Firebase", "NodeJs", "ExpressJs", "MongoDB"],
+        "description": "A full-stack task management application that allows users to create, update, and delete tasks. It features state management with Redux and a MongoDB database for persistent storage."
+      }
+    ]
+
+  
