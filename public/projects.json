@@ -5,7 +5,7 @@
         "liveLink": "https://next-door-service.web.app/",
         "image" : "https://i.ibb.co/BPbxGHt/nextdoor.png",
         "technologiesUsed": ["HTML", "CSS", "React", "Tailwind", "Firebase", "NodeJs", "ExpressJs", "MongoDB"],
-        "description": "A personal portfolio website to showcase my projects, skills, and achievements. Built with a clean and responsive design, it provides a seamless user experience across devices."
+        "description": "Next Door Service is a full-stack web application built with the MERN stack (MongoDB, Express, React, Node.js), offering a wide range of house services. Users can browse, post, update, and delete service requests for home maintenance, repairs, and cleaning. The platform is fully responsive, providing a seamless experience across desktop, tablet, and mobile devices. It allows users to upload images for service requests and manage their posts easily. With integrated authentication and authorization, users can securely manage their listings and personal information."
       },
       {
         "id" : 2,
@@ -13,7 +13,7 @@
         "image" : "https://i.ibb.co/cx8GXQh/cineverse-Flix.png",
         "liveLink": "https://www.example.com/task-manager",
         "technologiesUsed": ["HTML", "CSS", "React", "Tailwind", "Firebase", "NodeJs", "ExpressJs", "MongoDB"],
-        "description": "A full-stack task management application that allows users to create, update, and delete tasks. It features state management with Redux and a MongoDB database for persistent storage."
+        "description": "Cineverse Flix is a full-stack movie application built with the MERN stack, designed to help users discover and manage movies. Users can search, browse, rate, and review their favorite movies from a rich database. The app is fully responsive, ensuring smooth browsing across all devices, from desktop to mobile. It features real-time data fetching and dynamic content using an intuitive, user-friendly interface. With user authentication, Cineverse Flix allows users to save their favorite movies and share reviews securely."
       }
     ]
 
