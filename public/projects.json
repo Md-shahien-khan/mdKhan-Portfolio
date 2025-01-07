@@ -11,7 +11,7 @@
         "id" : 2,
         "projectName": "Cineverse Flix",
         "image" : "https://i.ibb.co/cx8GXQh/cineverse-Flix.png",
-        "liveLink": "https://www.example.com/task-manager",
+        "liveLink": "https://cineverse-flix.web.app",
         "technologiesUsed": ["HTML", "CSS", "React", "Tailwind", "Firebase", "NodeJs", "ExpressJs", "MongoDB"],
         "description": "Cineverse Flix is a full-stack movie application built with the MERN stack, designed to help users discover and manage movies. Users can search, browse, rate, and review their favorite movies from a rich database. The app is fully responsive, ensuring smooth browsing across all devices, from desktop to mobile. It features real-time data fetching and dynamic content using an intuitive, user-friendly interface. With user authentication, Cineverse Flix allows users to save their favorite movies and share reviews securely."
       }
