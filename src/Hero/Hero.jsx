@@ -1,6 +1,7 @@
 import React from 'react';
 import proPic from '../assets/images/khan.jpeg'
 import { motion } from 'framer-motion';
+import cv from '../../public/Resume-MD-Khan.pdf'
 
 const containerVariants = {
     hidden : {opacity : 0, x : -100},
@@ -52,7 +53,7 @@ const Hero = () => {
                         className='my-2 max-w-lg text-xl leading-relaxed tracking-tighter'>I’m a passionate Front-End Developer with over 2 years of academic experience and a strong foundation in Full-Stack Development. I have hands-on skills in front-end technologies like HTML, CSS, Bootstrap, Tailwind, JavaScript, React, Redux, and Next.js, enabling me to build responsive, interactive, and user-friendly interfaces. Additionally, I’ve expanded my expertise through Full-Stack Development courses, gaining experience with back-end technologies like Node.js, Express, Firebase, and MongoDB. This combination of skills allows me to contribute to both front-end and back-end development, ensuring seamless and efficient web applications. Eager to continue learning and growing, I look forward to collaborating with other developers and creating high-quality solutions in the web development field.</motion.p>
                         <motion.a
                         variants={childVariants}
-                        href="/src/khan-resume.pdf"
+                        href={cv}
                         target='blank'
                         rel='noopener noreferrer'
                         download
