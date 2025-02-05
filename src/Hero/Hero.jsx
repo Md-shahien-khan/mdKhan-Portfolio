@@ -1,7 +1,7 @@
 import React from 'react';
 import proPic from '../assets/images/khan.jpeg'
 import { motion } from 'framer-motion';
-import cv from '../../public/Resume-MD-Khan.pdf'
+import cv from '../../public/MdKhan-Resume.pdf'
 
 const containerVariants = {
     hidden : {opacity : 0, x : -100},
