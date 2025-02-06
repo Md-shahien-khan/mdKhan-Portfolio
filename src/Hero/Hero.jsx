@@ -50,7 +50,11 @@ const Hero = () => {
                         className='bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tighter text-transparent'>Front End Developer</motion.span>
                         <motion.p
                         variants={childVariants}
-                        className='my-2 max-w-lg text-xl leading-relaxed tracking-tighter'>I’m a passionate Front-End Developer with over 2 years of academic experience and a strong foundation in Full-Stack Development. I have hands-on skills in front-end technologies like HTML, CSS, Bootstrap, Tailwind, JavaScript, React, Redux, and Next.js, enabling me to build responsive, interactive, and user-friendly interfaces. Additionally, I’ve expanded my expertise through Full-Stack Development courses, gaining experience with back-end technologies like Node.js, Express, Firebase, and MongoDB. This combination of skills allows me to contribute to both front-end and back-end development, ensuring seamless and efficient web applications. Eager to continue learning and growing, I look forward to collaborating with other developers and creating high-quality solutions in the web development field.</motion.p>
+                        className='my-2 max-w-lg text-xl leading-relaxed tracking-tighter'>
+                            I am a passionate Front-End Developer with over 4 years of experience, specializing in creating responsive, interactive web interfaces using HTML, CSS, Bootstrap, Tailwind, JavaScript, React, and Next.js. My focus is on delivering seamless, dynamic user experiences across devices.
+                            Alongside my front-end expertise, I have hands-on experience with back-end technologies and have built several MERN (MongoDB, Express, React, Node.js) stack applications. This allows me to work across both front-end and back-end, ensuring smooth integration and efficient web applications.
+                            Eager to continue growing, I look forward to collaborating on high-quality, full-stack web solutions.
+                        </motion.p>
                         <motion.a
                         variants={childVariants}
                         href={cv}
