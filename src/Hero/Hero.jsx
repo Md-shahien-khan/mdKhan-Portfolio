@@ -51,7 +51,7 @@ const Hero = () => {
                         <motion.p
                         variants={childVariants}
                         className='my-2 max-w-lg text-xl leading-relaxed tracking-tighter'>
-                            I am a passionate Front-End Developer with over 4 years of experience, specializing in creating responsive, interactive web interfaces using HTML, CSS, Bootstrap, Tailwind, JavaScript, React, and Next.js. My focus is on delivering seamless, dynamic user experiences across devices.
+                            I am a passionate Front-End Developer with over 3 years of experience, specializing in creating responsive, interactive web interfaces using HTML, CSS, Bootstrap, Tailwind, JavaScript, React, and Next.js. My focus is on delivering seamless, dynamic user experiences across devices.
                             Alongside my front-end expertise, I have hands-on experience with back-end technologies and have built several MERN (MongoDB, Express, React, Node.js) stack applications. This allows me to work across both front-end and back-end, ensuring smooth integration and efficient web applications.
                             Eager to continue growing, I look forward to collaborating on high-quality, full-stack web solutions.
                         </motion.p>
