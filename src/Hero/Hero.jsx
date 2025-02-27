@@ -1,7 +1,7 @@
 import React from 'react';
 import proPic from '../assets/images/khan.jpeg'
 import { motion } from 'framer-motion';
-import cv from '../../public/Resume-Md-Khan.pdf'
+import cv from '../../public/Resume_Md_Shahien_Khan.pdf'
 
 const containerVariants = {
     hidden : {opacity : 0, x : -100},
@@ -28,7 +28,7 @@ const Hero = () => {
                 {/* image */}
                     <div className='flex justify-center lg:p-8'>
                         <motion.img src={proPic} alt="Md Shahien Khan" 
-                        className='border border-stone-900 rounded-3xl'
+                        className='border rounded-full border-stone-900 rounded-3xl'
                         width={650}
                         height={650}
                         initial={{ x : 100, opacity : 0 }}

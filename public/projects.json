@@ -1,6 +1,22 @@
     [
       {
         "id" : 1,
+        "projectName": "Pearl Bistro",
+        "liveLink": "https://pearl-bistro.netlify.app/",
+        "image" : "https://i.ibb.co/d0Tp7ykt/Screenshot-2025-02-27-at-13-16-13.png",
+        "technologiesUsed": ["HTML", "CSS", "React", "Tailwind", "Firebase", "NodeJs", "ExpressJs", "MongoDB", "Stripe"],
+        "description": "Pearl-Bistro is a modern, responsive MERN stack restaurant platform that enables customers to seamlessly browse menus, place orders, and make secure payments. Admins can easily manage menu items, track orders, and monitor users with full CRUD functionality. Integrated with Firebase for authentication and Stripe for secure payments, it also features real-time order tracking, email notifications, and a user-friendly design, ensuring a smooth dining experience."
+      },
+      {
+        "id" : 2,
+        "projectName": "Click & Cash",
+        "liveLink": "https://click-n-cash-e0801.web.app/",
+        "image" : "https://i.ibb.co/0R0jQ5Xf/Screenshot-2025-02-27-at-13-21-06.png",
+        "technologiesUsed": ["HTML", "CSS", "React", "Tailwind", "Firebase", "NodeJs", "ExpressJs", "MongoDB", "Stripe"],
+        "description": "Click & Cash is a MERN stack-based micro-earning platform designed to connect job seekers and employers for short-term, online tasks. Employers can post jobs with task details and rewards, while workers can browse and complete tasks at their convenience. The platform offers secure authentication, a user-friendly interface, and responsive design for a seamless experience across devices. Admins have full control over posts and user activities, ensuring a safe environment. Click & Cash leverages Firebase for authentication, MongoDB for data storage, and integrates modern features like social media links and real-time updates."
+      },
+      {
+        "id" : 3,
         "projectName": "Next Door Service",
         "liveLink": "https://next-door-service.web.app/",
         "image" : "https://i.ibb.co/BPbxGHt/nextdoor.png",
@@ -8,7 +24,7 @@
         "description": "Next Door Service is a full-stack web application built with the MERN stack (MongoDB, Express, React, Node.js), offering a wide range of house services. Users can browse, post, update, and delete service requests for home maintenance, repairs, and cleaning. The platform is fully responsive, providing a seamless experience across desktop, tablet, and mobile devices. It allows users to upload images for service requests and manage their posts easily. With integrated authentication and authorization, users can securely manage their listings and personal information."
       },
       {
-        "id" : 2,
+        "id" : 4,
         "projectName": "Cineverse Flix",
         "image" : "https://i.ibb.co/cx8GXQh/cineverse-Flix.png",
         "liveLink": "https://cineverse-flix.web.app",
