@@ -48,12 +48,16 @@ const ContactForm = () => {
             });
     };
 
+    // Add a key that changes whenever you want the animation to reset
+    const animationKey = Date.now(); // Using the current timestamp as the key
+
     return (
         <div className="flex justify-center items-center">
             <motion.form
                 ref={form}
                 onSubmit={sendEmail}
                 className="border-2 p-8 rounded-lg shadow-xl w-full max-w-lg"
+                key={animationKey} // This will reset the animation every time the component is refreshed
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
@@ -64,7 +68,7 @@ const ContactForm = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                    Contact Us
+                    Send me an email
                 </motion.h2>
 
                 <motion.label
@@ -78,7 +82,7 @@ const ContactForm = () => {
                 </motion.label>
                 <motion.input
                     type="text"
-                    name="user_name"
+                    name="user_name" 
                     id="user_name"
                     className="w-full p-3 mb-4 rounded-md bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500"
                     placeholder="Your name"
@@ -98,7 +102,7 @@ const ContactForm = () => {
                 </motion.label>
                 <motion.input
                     type="email"
-                    name="user_email"
+                    name="user_email"  
                     id="user_email"
                     className="w-full p-3 mb-4 rounded-md bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500"
                     placeholder="Your email"
@@ -117,7 +121,7 @@ const ContactForm = () => {
                     Message
                 </motion.label>
                 <motion.textarea
-                    name="message"
+                    name="message"  // Ensure this matches the template variable
                     id="message"
                     className="w-full p-3 mb-6 rounded-md bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500"
                     placeholder="Your message"
