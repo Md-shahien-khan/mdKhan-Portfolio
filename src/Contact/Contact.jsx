@@ -24,7 +24,7 @@ const Contact = () => {
                 className="my-4">
                     +447593214400
                 </motion.p>
-                <a href="" className="border-b">shawonkn58@gmail.com</a>
+                {/* <a href="" className="border-b">shawonkn58@gmail.com</a> */}
             </div>
         </div>
     );
